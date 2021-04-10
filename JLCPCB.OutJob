@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=JLCPCB.OutJob
 Description=
 TargetOutputMedium=BOM
 VariantName=[No Variations]
@@ -138,7 +138,7 @@ PcbPrintPreferences5=
 OutputType6=ExportSTEP
 OutputName6=Export STEP
 OutputCategory6=Export
-OutputDocumentPath6=Dev Board.PcbDoc
+OutputDocumentPath6=
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -148,12 +148,12 @@ OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=1
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Owner\Desktop\Waterloop\electrical-BMS\F405 Dev Board\Dev Board.PcbDoc
+Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=[PCB Document]
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Ben\Documents\Waterloop\electrical-BMS\Slave-BMS\Project Outputs for BMS Slave Device R1.5\PDF\M-Mewtwo_MCUrev1.pdf
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for F405 Dev Board
+OutputBasePath2=Project Outputs for Free Documents
 OutputPathMedia2=[Media Name]
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -180,7 +180,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Owner\Desktop\Waterloop\electrical-BMS\F405 Dev Board\Project Outputs for F405 Dev Board\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for F405 Dev Board
+OutputBasePath3=Project Outputs for Free Documents
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Custom]
@@ -193,7 +193,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=C:\Users\Owner\Desktop\Waterloop\electrical-BMS\F405 Dev Board\Project Outputs for F405 Dev Board\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for F405 Dev Board
+OutputBasePath4=Project Outputs for Free Documents
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -206,7 +206,7 @@ OutputFileNameSpecial4=
 OpenOutput4=1
 OutputFilePath5=C:\Users\Owner\Desktop\Waterloop\electrical-BMS\F405 Dev Board\Project Outputs for F405 Dev Board\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for F405 Dev Board
+OutputBasePath5=Project Outputs for Free Documents
 OutputPathMedia5=
 OutputPathMediaValue5=
 OutputPathOutputer5=[Output Type]
